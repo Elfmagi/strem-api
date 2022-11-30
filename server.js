@@ -7,7 +7,7 @@ var express = require('express'),
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/streamerdb'); 
+mongoose.connect('mongodb://localhost/streamerdb'); //temp database connection path
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
